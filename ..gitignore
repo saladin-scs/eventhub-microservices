@@ -1,0 +1,78 @@
+### Java ###
+*.class
+*.log
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+hs_err_pid*
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+*.code-workspace
+
+### OS ###
+.DS_Store
+Thumbs.db
+desktop.ini
+
+### Logs ###
+logs/
+*.log
+*.gz
+
+### Temp ###
+temp/
+tmp/
+*.tmp
+*.swp
+*.swo
+*~
+
+### Application Files ###
+**/application-*.properties
+**/application-*.yml
+**/application-*.yaml
+!**/application.properties
+!**/application.yml
+
+### Maven Wrapper ###
+!/mvnw
+!/mvnw.cmd
+!/mvnw/wrapper/maven-wrapper.jar
